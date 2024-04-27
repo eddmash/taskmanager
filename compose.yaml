@@ -1,0 +1,10 @@
+services:
+  database:
+    image: 'postgres:15.2'
+    ports:
+    - '5432'
+    environment:
+    - 'POSTGRES_USER=test'
+    - 'POSTGRES_DB=taskmanager'
+    - 'POSTGRES_PASSWORD=secret'
+
