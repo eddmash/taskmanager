@@ -145,6 +145,12 @@
 				<version>0.8.9</version>
 				<executions> 
 					<execution>
+			            <goals>
+			                <goal>prepare-agent</goal>
+			            </goals>
+			        </execution>
+					<execution>
+						<id>report</id>
 						<phase>verify</phase>
 						<goals>
 							<goal>report</goal>
